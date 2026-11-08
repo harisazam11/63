@@ -1,0 +1,54 @@
+body{
+  background-image: url(1.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.QuotesForm{
+  
+    width: 40%;
+    height: 300px;
+    padding: 15px;
+     background: linear-gradient(to bottom,#a6e6ff 75%, #ffffff 100%);
+    box-shadow: 10px 10px 5px black;
+    margin-left: 26%;
+    margin-top: 7%;
+    
+  
+}
+.QuotesFor{
+  padding: 40px;
+  width: 87%;
+  height: 180px;
+  color:  black;
+  text-shadow: 2px 2px yellowgreen;
+  margin-top: -20px;
+  
+}
+h1{
+  color:red;
+  text-shadow: 2px 2px yellow;
+  animation-name: exp;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes exp {
+ from{color: red;}
+ to{color: black;}  
+}
+
+
+.button{
+  background: linear-gradient(to bottom,#a6e6ff 75%, #ffffff 100%);
+  box-shadow: 2px 2px black;
+  margin-left: 68%;
+  color: green;
+  font-weight: bolder;
+  padding: 4%;
+  
+ padding-left: 50px;
+ padding-right: 50px;
+}
+.button:hover{
+  border: navajowhite;
+}

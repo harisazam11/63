@@ -1,0 +1,48 @@
+.cardDetails label{
+    margin-top: 1.2rem;
+}
+.cardDetails{
+    overflow: hidden;
+}
+.cardDetails button{
+    margin-top: 1.2rem;
+    float: right;
+    background-color: darkblue;
+    color: #e48400;
+    padding: 10px;
+    padding-left: 5%;
+    padding-right: 5%;    
+    box-shadow: 4px 3px 2px #e48400;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    margin-right: 2%;
+
+}
+.cardDetails input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid silver;
+    width: 60vh;
+    margin-right: 10%;
+    background: none;
+}
+
+@keyframes borderAnimation {
+    0% {
+      border-color: #1a237e; /* Dark blue color */
+    }
+    50% {
+      border-color: #e48400; /* Orange color */
+    }
+    100% {
+      border-color: #1a237e; /* Dark blue color */
+    }
+  }
+  
+  .CreditCardContainer {
+    border: 1px solid #1a237e; /* Initial border color */
+    padding: 1%;
+    animation: borderAnimation 5s infinite; /* Rotate between colors over 5 seconds */
+    box-shadow: 10px 8px 5px silver;
+    border-radius: 20px;
+  }

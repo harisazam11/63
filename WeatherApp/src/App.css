@@ -1,0 +1,53 @@
+body{
+  background-image: url('Backgroundpic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.QuotesForm{
+  width: 40%;
+  height: 350px;
+  padding: 15px;
+   /* background: linear-gradient(to bottom,#a6e6ff 75%, #ffffff 100%); */
+   background-color: darkgray;
+  box-shadow: 10px 10px 5px black;
+  margin-left: 26%;
+  margin-top: 7%;
+  overflow: hidden;
+  
+}
+
+h1{
+color:red;
+text-shadow: 2px 2px yellow;
+animation-name: exp;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+@keyframes exp {
+from{color: red;}
+to{color: black;}  
+}
+.button{
+background: linear-gradient(to bottom,#a6e6ff 75%, #ffffff 100%);
+box-shadow: 2px 2px black;
+margin-left: 68%;
+color: green;
+font-weight: bolder;
+padding: 4%;
+padding-left: 50px;
+padding-right: 50px;
+}
+.button:hover{
+border: navajowhite;
+}
+
+
+/* search box */
+.searchbox{
+width: 17%;
+height: 30px;
+}
+.clearBtn{
+  height: 40px;
+  width: 3.3%;
+}

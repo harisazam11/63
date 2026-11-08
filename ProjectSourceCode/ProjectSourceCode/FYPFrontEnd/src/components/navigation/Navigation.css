@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+}
+
+.sidebar {
+    height: auto;
+    width: 200px;
+    background-color: darkblue;
+    padding-top: 20px;
+    margin-left: -120px;
+    transition: all 0.5s ease-in-out;
+}
+
+.sidebar li {
+    padding-left: 10%;
+    color:  #e48400;
+    margin-left: 2%;
+}
+
+.logo {
+    height: 88px;
+    padding: 16px;
+}
+
+.logo img {
+    height: 100%;
+    width: 50%;
+    margin-left: 15%;
+    border-radius: 100%;
+    rotate: 50deg;
+    box-shadow: 2px 12px #e48400;
+    animation: mymove 20s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        transform: rotate(360deg);
+    }
+    10% {
+        transform: rotate(-360deg);
+    }
+}
+
+.sidebar a:hover {
+    color:  white;
+}
+
+.content {
+    flex-grow: 2;
+    padding: 20px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add this */
+    text-decoration: none;   
+    margin-bottom: 8%;
+}
+
+.nav-icon {
+    margin-right: 2px;
+    color: white;
+}

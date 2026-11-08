@@ -1,0 +1,21 @@
+/* Registration form Selection option Field */
+
+/* Style for the select element */
+.role-select {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    color:white;
+    border-bottom: solid white;
+    background: none;
+    outline: none;
+    width: 200px; /* Adjust width as needed */
+    margin-left: 30px;
+    
+  }
+  .role-select option{
+    color:black;
+    background: none;
+    background-color: silver; 
+  }
+  

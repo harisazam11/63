@@ -1,0 +1,18 @@
+.container img{
+    opacity: 0.6;  
+     
+    width: 100%;  
+}
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.logout{
+    top: 0;
+    right: 0;
+    position: fixed;
+color: blue;
+}
+/* .logout:hover{ } */

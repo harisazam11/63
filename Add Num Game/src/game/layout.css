@@ -1,0 +1,21 @@
+form{
+    border: solid;
+    margin-left: 20%;
+    margin-right: 30%;
+    margin-top: 5%;
+    color: white;
+    overflow: hidden;
+    padding: 1%;
+}
+
+.inputField{
+    width: 78%;
+    height: 45px;
+    float: left;
+}
+button{
+    width: 20%;
+    height: 50px;
+    overflow: hidden;
+    float:right;
+}

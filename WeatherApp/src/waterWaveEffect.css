@@ -1,0 +1,41 @@
+.oval {
+    height: 373px;
+    width: 159%;
+    background-color: skyblue;
+    border-radius: 50%;
+    animation: mymove 5s infinite
+   
+  }
+  .oval1 {
+    height: 373px;
+    width: 159%;
+    background-color: lightblue;
+    border-radius: 50%;
+    
+  }
+  @keyframes mymove {
+    50% {transform: rotate(0.5deg);}
+  }
+
+  .ovaloutside1{
+   height: -16px;
+    width: 222%;
+    background-color:chocolate;
+    border-radius: 50%;
+    
+  }
+
+  .ovaloutside2{
+    height: 712px;
+     width: 149%;
+     background-color: black;
+     border-radius: 50%;
+     
+   }
+   .ovaloutside3{
+    height: 700px;
+     width: 149%;
+     background-color: darkgray;
+     border-radius: 50%;
+     
+   }

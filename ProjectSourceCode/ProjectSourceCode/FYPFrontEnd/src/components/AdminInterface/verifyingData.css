@@ -1,0 +1,79 @@
+.container {
+    
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h2 {
+    color: #333;
+  }
+  
+  .container .details {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Two columns */
+    gap: 10px; /* Gap between columns */
+  }
+  
+  .container .details p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .button-container .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .button-container .btn-primary {
+    background-color: darkblue;
+  }
+  
+  .button-container .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .EditInputField {
+    border: none;
+    background: none;
+    border-bottom: black solid 1px;
+    width: 100%;
+    height: 30px; /* Adjust height as needed */
+    margin: 5px 0; /* Optional: add some margin for spacing */
+}
+
+.EditLabelField {
+    display: block; /* Ensure label and input are on separate lines */
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Optional: make label bold */
+}
+
+.EditInputContainer {
+    margin-bottom: 15px; /* Space between input fields */
+}
+
+.AccountUsersContainer{
+     display: grid;
+    grid-template-columns: auto; 
+    padding-left: 8%;
+    
+}
+
+
+/* VerifiedDataForm.jsx */
+
+.RighButton{
+float: right;
+}

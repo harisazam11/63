@@ -1,0 +1,31 @@
+.loginContainer{
+    
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 8%;
+    align-items: center;
+}
+.subButton{
+    background-color: darkblue;
+    color: white;
+    float: right;
+    padding: 1%;
+    margin-top: 5%;
+    border-radius: 7%;
+}
+.contag{
+    margin-bottom: 2%;
+    color: darkblue;
+
+}
+
+.Form input{
+    
+    background: none;
+    border: none;
+    border-bottom:  solid 2px;
+    margin-bottom: 3%;
+}
+.loginContainer{
+    height: 80vh;
+}
